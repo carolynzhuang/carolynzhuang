@@ -1,0 +1,335 @@
+* {
+    color: #3E3935;
+    background-color: #F6F1EB;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#backarrow, #frontarrow {
+    width: 40px;
+}
+
+#pagetitle {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.text {
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 30px;
+}
+
+#logo {
+    position: fixed; 
+    bottom: 20px; 
+    left: 30px;
+    z-index: 9999; 
+    width: 50px;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes spin {
+    50% { transform: rotate(180deg)}
+	100% { transform: rotate(360deg)}
+}
+
+/* Home Page */
+
+#maintitle {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 100px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img1 {
+    opacity: 0.8;
+}
+
+#img1 {
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 320px;
+    opacity: 0.8;
+}
+
+#img1:hover {
+    opacity: 1;
+    width: 330px;
+}
+
+#img2 {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 620px;
+    width: 220px;
+    opacity: 0.8;
+}
+
+#img2:hover {
+    opacity: 1;
+    width: 230px;
+}
+
+#img3 {
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 1170px;
+    width: 260px;
+    opacity: 0.8;
+}
+
+#img3:hover {
+    opacity: 1;
+    width: 270px;
+}
+
+#img4 {
+    position: fixed;
+    margin-top: 450px;
+    margin-left: 1170px;
+    width: 240px;
+    opacity: 0.8;
+}
+
+#img4:hover {
+    opacity: 1;
+    width: 250px;
+}
+
+#img5 {
+    position: fixed;
+    margin-top: 530px;
+    margin-left: 600px;
+    width: 300px;
+    opacity: 0.8;
+}
+
+#img5:hover {
+    opacity: 1;
+    width: 310px;
+}
+
+#img6 {
+    position: fixed;
+    margin-top: 420px;
+    margin-left: 80px;
+    width: 240px;
+    opacity: 0.8;
+}
+
+#img6:hover {
+    opacity: 1;
+    width: 250px;
+}
+
+#arrow1 {
+    position: fixed;
+    margin-top: 110px;
+    margin-left: 410px;
+    width: 130px;
+}
+
+#arrow2 {
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 920px;
+    width: 150px;
+}
+
+#arrow3 {
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 1240px;
+    width: 120px;
+}
+
+#arrow4 {
+    position: fixed;
+    margin-top: 600px;
+    margin-left: 960px;
+    width: 150px;
+}
+
+#arrow5 {
+    position: fixed;
+    margin-top: 570px;
+    margin-left: 380px;
+    width: 150px;
+}
+
+/* Page 1 */
+
+#page1-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#img1-1-1 {
+    margin-right: 50px;
+    width: 250px;
+}
+
+#page1-2 {
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+#page1-2-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#img1-2-1 {
+    margin-right: 20px;
+}
+
+#img1-2-2 {
+    margin-left: 20px;
+    width: 200px;
+}
+
+/* Page 2 */
+
+#page2-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#page2-2 {
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#page2-2-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#img2-2-1 {
+    width: 230px;
+}
+
+#img2-2-2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 300px;
+}
+
+#img2-2-3 {
+    width: 210px;
+}
+
+#page2-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+#img2-3-1 {
+    width: 300px;
+    margin-right: 40px;
+}
+
+/* Page 3 */
+#page3-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+#img3-1-1 {
+    width: 400px;
+    margin-right: 40px;
+}
+
+/* Page 4 */
+#page4-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+
+#img4-1-1 {
+    width: 400px;
+    margin-left: 40px;
+}
+
+/* Page 5 */
+
+#page5-1 {
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#img5-1-1 {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+/* Page 6 */
+#page6-1 {
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.page6-1carousel {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.page6-1carousel img {
+    position: absolute;
+    transition: opacity 0.8s ease;
+    opacity: 0;
+}
+
